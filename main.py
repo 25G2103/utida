@@ -6,8 +6,8 @@ def main():
         selected = menu.menu()
 
         if selected == 1:
-            import selectStation  #統合後に削除する
-            fare = selectStation.selectStation()
+            import select  #統合後に削除する
+            fare = select.select_stations()
             if fare != 0:
                 import pay  #統合後に削除する
                 balance = pay.pay(balance, fare)
