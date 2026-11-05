@@ -1,8 +1,3 @@
-# ウチダ電鉄　UchICaチャージ機能検証システム
-# ・charge関数とmain関数を、設計書を参考に完成させてください。
-# ・関数名は変更しないでください。
-
-
 def charge(balance):
     availablePrices = range(1000, 10001, 1000)
 
